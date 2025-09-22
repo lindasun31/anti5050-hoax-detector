@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+.conda/
+.aphactonenv/
+
+# Secrets
+.env
+secret/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit logs
+.streamlit/

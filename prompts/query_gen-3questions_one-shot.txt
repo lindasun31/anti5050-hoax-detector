@@ -1,0 +1,20 @@
+Dengan klaim di bawah ini, buatlah 3 kueri pencarian dalam bentuk PERTANYAAN LANGSUNG untuk memverifikasi klaim. Hanya keluarkan kueri, tanpa teks tambahan. Perhatikan detail seperti waktu, lokasi, kejadian, dan angka atau data pada klaim.
+
+Klaim:
+{query}
+
+Output Format:
+Kueri:
+1. [Kueri pencarian pertama]
+2. [Kueri pencarian kedua]
+3. [Kueri pencarian ketiga]
+
+Contoh Output:
+Klaim:
+4,8 juta orang Indonesia terpapar narkoba dalam beberapa tahun terakhir.
+
+Output Format:
+Kueri:
+1. Berapa jumlah pengguna narkoba di Indonesia menurut BNN dalam 5 tahun terakhir?
+2. Apakah ada data resmi yang menyebutkan 4,8 juta orang terpapar narkoba di Indonesia?
+3. Apa hasil survei terbaru tentang prevalensi penyalahgunaan narkoba di Indonesia?
