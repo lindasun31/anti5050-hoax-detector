@@ -1,1 +1,2 @@
-enableWatchdog = false
+[server]
+headless = true
