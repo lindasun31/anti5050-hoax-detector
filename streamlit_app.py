@@ -12,8 +12,8 @@ st.set_page_config(page_title="Anti5050 Hoax Detector", page_icon=None, layout="
 # Load environment variables
 load_dotenv(dotenv_path="secret/.env")
 # Fetch the API key
-TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
-OPENROUTER_API_KEY =  os.getenv("OPENROUTER_API_KEY")
+openrouter_key = st.secrets["OPENROUTER_API_KEY"]
+tavily_key = st.secrets["TAVILY_API_KEY"]
 
 if not OPENROUTER_API_KEY or not TAVILY_API_KEY:
     print("Kunci API untuk OpenRouter atau Tavily tidak ditemukan. Harap konfigurasikan di Streamlit secrets.")
