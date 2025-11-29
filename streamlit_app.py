@@ -25,7 +25,7 @@ tavily_client = TavilyClient(api_key=TAVILY_API_KEY)
 col1, col9, col10 = st.columns([2, 10, 2])
 with col1:
     # Top bar with icons and text
-    col1, col2, col3 = st.columns([0.5, 0.55, 0.5])
+    col1, col2, col3 = st.columns([0.5, 0.5, 0.5])
     
     with st.container():
         with st.container():
