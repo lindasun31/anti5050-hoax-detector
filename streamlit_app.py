@@ -36,7 +36,7 @@ with col1:
                 st.image("images/logo2.png", width=70)  # second icon
                 st.write("SHA")
 with col9:
-    st.markdown("<h1 style='text-align:center'>Selamat Datang di Hoax Detection dengan RAG + LLM</h3>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align:center'>HOAX DETECTION MACHINE</h3>", unsafe_allow_html=True)
     placeholder_text = "Silahkan masukkan klaim"
     with st.form('claim_input_form'):
         col4, col5 = st.columns([7, 1])
