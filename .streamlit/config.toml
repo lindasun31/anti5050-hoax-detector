@@ -5,19 +5,6 @@ headless = true
 
 # Sets the default theme. "light" or "dark".
 [theme]
-base = "light" # or "light" to make light mode the default
-
-# Primary brand color for buttons, links, etc.
-primaryColor = "#FF4B4B"
-
-# Background color for the main app area
-backgroundColor = "#FFC0CB" # light mode background
-
-# Background color for sidebars and secondary containers
-secondaryBackgroundColor = "#262730" # Dark mode sidebar background
-
-# Text color
-textColor = "#0E1117"
-
-# Font family (e.g., "sans serif", "serif", "monospace")
-font = "sans serif"
+backgroundColor="#ffc0cb"
+secondaryBackgroundColor="#e1e2ef"
+textColor="#0e1117"
