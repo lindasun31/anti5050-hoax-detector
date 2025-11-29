@@ -31,10 +31,10 @@ with col1:
             with col1:
                 
                 st.image("images/logo1.png", width=50)  # first icon
-                st.write("UMN")
+                st.markdown("<h1 style='text-align:center'>UMN</h3>", unsafe_allow_html=True)
             with col2:
                 st.image("images/logo2.png", width=70)  # second icon
-                st.write("SHA")
+                st.markdown("<h1 style='text-align:center', "font-size: 20px;">SHA</h3>", unsafe_allow_html=True)
 with col9:
     st.markdown("<h1 style='text-align:center'>HOAX DETECTION MACHINE</h3>", unsafe_allow_html=True)
     placeholder_text = "Silahkan masukkan klaim"
