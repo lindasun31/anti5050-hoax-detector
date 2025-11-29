@@ -32,11 +32,11 @@ with col1:
     
             with col1:
                 st.markdown("<div style='margin-bottom:-15px;'></div>", unsafe_allow_html=True)
-                st.image("images/logo1.png", width=50)
+                st.image("images/logo1_titled_black.png", width=50)
     
             with col2:
                 st.markdown("<div style='margin-bottom:-15px;'></div>", unsafe_allow_html=True)
-                st.image("images/logo2.png", width=70)
+                st.image("images/logo2_titled_black.png", width=70)
 
 
 
