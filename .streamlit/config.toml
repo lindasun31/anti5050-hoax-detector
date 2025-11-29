@@ -5,7 +5,7 @@ headless = true
 
 # Sets the default theme. "light" or "dark".
 [theme]
-base = "dark" # or "light" to make light mode the default
+base = "light" # or "light" to make light mode the default
 
 # Primary brand color for buttons, links, etc.
 primaryColor = "#FF4B4B"
