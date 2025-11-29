@@ -125,8 +125,8 @@ with col9:
                             title='Persentase Artikel Pendukung',
                             color='Category',
                             color_discrete_map={
-                                'Mendukung': 'seagreen',
-                                'Tidak Mendukung': 'red'
+                                'Mendukung': "#48a49cff",
+                                'Tidak Mendukung': '#F62681'
                             }
                         )
                         st.markdown("<h3 style='text-align:center'>Grafik Hoax vs non Hoax</h3>", unsafe_allow_html=True)
