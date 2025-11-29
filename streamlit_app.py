@@ -24,33 +24,37 @@ if not OPENROUTER_API_KEY or not TAVILY_API_KEY:
 tavily_client = TavilyClient(api_key=TAVILY_API_KEY)
 col1, col9, col10 = st.columns([2, 10, 2])
 with col1:
-        # Top bar with icons and text
-    col1, col2, col3= st.columns([0.5, 0.55, 0.5])  # adjust widths
+    # Top bar with icons and text
+    col1, col2, col3 = st.columns([0.5, 0.55, 0.5])
+    
     with st.container():
         with st.container():
-            # Reduce vertical spacing globally for images and headers
-            st.markdown("""
-                <style>
-                    .no-gap img {
-                        margin-bottom: -10px !important;
-                    }
-                    .no-gap h1 {
-                        margin-top: -10px !important;
-                    }
-                </style>
-            """, unsafe_allow_html=True)
-            
             with col1:
-                st.markdown("<div class='no-gap'>", unsafe_allow_html=True)
-                st.image("images/logo1.png", width=50)
-                st.markdown("<h1 style='text-align:center; font-size: 15px;'>UMN</h1>", unsafe_allow_html=True)
-                st.markdown("</div>", unsafe_allow_html=True)
-            
+                st.markdown(
+                    """
+                    <div style="text-align:center; margin-bottom:-10px;">
+                        <img src="images/logo1.png" width="50">
+                    </div>
+                    <div style="text-align:center; margin-top:-12px;">
+                        <h1 style="font-size:15px;">UMN</h1>
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                )
+    
             with col2:
-                st.markdown("<div class='no-gap'>", unsafe_allow_html=True)
-                st.image("images/logo2.png", width=70)
-                st.markdown("<h1 style='text-align:center; font-size: 15px;'>SHA</h1>", unsafe_allow_html=True)
-                st.markdown("</div>", unsafe_allow_html=True)
+                st.markdown(
+                    """
+                    <div style="text-align:center; margin-bottom:-10px;">
+                        <img src="images/logo2.png" width="70">
+                    </div>
+                    <div style="text-align:center; margin-top:-12px;">
+                        <h1 style="font-size:15px;">SHA</h1>
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                )
+
 
 with col9:
     st.markdown("<h1 style='text-align:center'>HOAX DETECTION MACHINE</h3>", unsafe_allow_html=True)
