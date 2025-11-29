@@ -5,8 +5,7 @@ headless = true
 
 # Sets the default theme. "light" or "dark".
 [theme]
-primaryColor="#4fa47d"
-backgroundColor="#f1e8eb"
-secondaryBackgroundColor="#e4d3e0"
+primaryColor="#4fa48fff"
+backgroundColor="#ffc0cb"
+secondaryBackgroundColor="#4fa48fff"
 textColor="#0e1117"
-
