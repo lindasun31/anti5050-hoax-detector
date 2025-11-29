@@ -28,13 +28,30 @@ with col1:
     col1, col2, col3= st.columns([0.5, 0.55, 0.5])  # adjust widths
     with st.container():
         with st.container():
+            # Reduce vertical spacing globally for images and headers
+            st.markdown("""
+                <style>
+                    .no-gap img {
+                        margin-bottom: -10px !important;
+                    }
+                    .no-gap h1 {
+                        margin-top: -10px !important;
+                    }
+                </style>
+            """, unsafe_allow_html=True)
+            
             with col1:
-                
-                st.image("images/logo1.png", width=50)  # first icon
-                st.markdown("<h1 style='text-align:center; font-size: 15px;'>UMN</h3>", unsafe_allow_html=True)
+                st.markdown("<div class='no-gap'>", unsafe_allow_html=True)
+                st.image("images/logo1.png", width=50)
+                st.markdown("<h1 style='text-align:center; font-size: 15px;'>UMN</h1>", unsafe_allow_html=True)
+                st.markdown("</div>", unsafe_allow_html=True)
+            
             with col2:
-                st.image("images/logo2.png", width=70)  # second icon
-                st.markdown("<h1 style='text-align:center; font-size: 15px;'>SHA</h3>", unsafe_allow_html=True)
+                st.markdown("<div class='no-gap'>", unsafe_allow_html=True)
+                st.image("images/logo2.png", width=70)
+                st.markdown("<h1 style='text-align:center; font-size: 15px;'>SHA</h1>", unsafe_allow_html=True)
+                st.markdown("</div>", unsafe_allow_html=True)
+
 with col9:
     st.markdown("<h1 style='text-align:center'>HOAX DETECTION MACHINE</h3>", unsafe_allow_html=True)
     placeholder_text = "Silahkan masukkan klaim"
